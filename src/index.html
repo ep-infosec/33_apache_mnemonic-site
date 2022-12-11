@@ -1,0 +1,48 @@
+---
+layout: default
+title: Apache Mnemonic &bull; Durable Object Oriented Programming on Hybrid Storage-Class Memory Space
+overview: true
+---
+
+<section class="intro">
+  <div class="grid">
+    <div class="unit whole center-on-mobiles">
+      <a class="first titlehead inner-center" href="/docs/features.html">
+        if <span class="codesym">(</span> Mnemonic.inUse() <span class="codesym">)</span> <span class="codesym">{</span>
+        <div class="ifbody">
+          assert availMemory &gt;= sysMemory;<br/>
+          assert DurableObjectModal.takeEffect();<br/>
+          assert serDe.bypass();<br/>
+          assert cache.bypass();<br/>
+        </div>
+        <span class="codesym">}</span>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="ingredients">
+    <div class="grid">
+      <div class="row">
+          <a class="tblunit1 one-third" href="/docs/domusecases.html">
+            <p>Durable Object Model</p>
+          </a>
+          <a class="tblunit1 one-third" href="/docs/dcmusecases.html">
+            <p>Durable Computing Model</p>
+          </a>
+          <a class="tblunit1 one-third" href="/docs/msusecases.html">
+            <p>Durable Memory Service</p>
+          </a>
+      </div>
+      <div class="row">
+          <div class="tblunit2 one-third">
+              <p>Persist your linked objects without SerDe.</p>
+          </div>
+          <div class="tblunit2 one-third">
+              <p>Process your linked objects in native code.</p>
+          </div>
+          <div class="tblunit2 one-third">
+              <p>Abstract storage as memory transparently</p>
+          </div>
+      </div>
+    </div>
+</section>
